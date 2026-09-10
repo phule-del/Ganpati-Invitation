@@ -8,10 +8,10 @@ const assets = {
   logo: 'https://ganpatiinvi-dplum.vercel.app/assets/logo-B7uG79am.webp',
   hero: 'https://ganpatiinvi-dplum.vercel.app/assets/hero-visual-BBS8_Fih.webp',
   family: [
-    '/photos/Kaka.jpeg',       // शरद भट्ट
-    '/photos/ManasviMom.jpeg', // सविता भट्ट
-    '/photos/Dada.jpeg',       // चिन्मय भट्ट
-    '/photos/Manasvi.jpeg',    // मानस्वी भट्ट
+    '/photos/Kaka.jpeg',       // शरद भाट
+    '/photos/ManasviMom.jpeg', // सविता भाट
+    '/photos/Dada.jpeg',       // चिन्मय भाट
+    '/photos/Manasvi.jpeg',    // मनस्वी भाट
   ],
   // ➕ Remaining photos mapped to gallery slots
   gallery: [
@@ -86,7 +86,7 @@ export default function Page() {
 
             <div className="curtain-divider" />
 
-            <p className="curtain-subtitle">भट्ट परिवार</p>
+            <p className="curtain-subtitle">भाट परिवार</p>
 
             <button className="open-button" onClick={openInvitation}>
               निमंत्रण उघडा <span>→</span>
@@ -100,7 +100,7 @@ export default function Page() {
         {/* ── Topbar ── */}
         <header className="topbar">
           <a className="brand" href="#home">
-            <img src={assets.logo} alt="गणेश" /><span>भट्ट परिवार</span>
+            <img src={assets.logo} alt="गणेश" /><span>भाट परिवार</span>
           </a>
           <nav>
             <a href="#invitation">निमंत्रण</a>
@@ -147,7 +147,7 @@ export default function Page() {
 
               <p className="eyebrow-center">✦ &nbsp; आपले हार्दिक स्वागत &nbsp; ✦</p>
 
-              <h2>भट्ट परिवाराकडून<br /><em>मनःपूर्वक निमंत्रण</em></h2>
+              <h2>भाट परिवाराकडून<br /><em>मनःपूर्वक निमंत्रण</em></h2>
 
               <div className="invite-divider"><span>✦</span></div>
 
@@ -165,7 +165,7 @@ export default function Page() {
 
               <div className="invite-signature">
                 <p>आपले स्नेहांकित</p>
-                <strong>भट्ट परिवार</strong>
+                <strong>भाट परिवार</strong>
               </div>
             </div>
           </div>
@@ -178,13 +178,13 @@ export default function Page() {
             <h2>बाप्पाच्या स्वागतासाठी<br /><em>संपूर्ण परिवार सज्ज</em></h2>
           </div>
           <div className="family-grid">
-            {['शरद भट्ट', 'सविता भट्ट', 'चिन्मय भट्ट', 'मानस्वी भट्ट'].map((name, index) => (
+            {['शरद भाट', 'सविता भाट', 'चिन्मय भाट', 'मनस्वी भाट'].map((name, index) => (
               <div className="family-member" key={name}>
                 <div className="portrait">
                   <img src={assets.family[index]} alt={name} />
                 </div>
                 <p>{name}</p>
-                <span>भट्ट परिवार</span>
+                <span>भाट परिवार</span>
               </div>
             ))}
           </div>
@@ -241,15 +241,15 @@ export default function Page() {
           <div className="location-copy">
             <p className="eyebrow">आपली वाट पाहत आहोत</p>
             <h2>आपण जरूर<br /><em>यावे</em></h2>
-            <p className="address">A विंग, ९०५</p>
-            <p className="address-sub">भट्ट परिवाराचे निवासस्थान</p>
+            <p className="address">Neelsidhi Regalia, A Wing 905</p>
+            <p className="address-sub">भाट परिवाराचे निवासस्थान</p>
             <a className="map-button" href={mapsUrl} target="_blank" rel="noreferrer">
               नकाशावर ठिकाण पहा <span>↗</span>
             </a>
           </div>
           <div className="map-visual">
             <div className="map-grid" />
-            <div className="map-pin">⌖<span>A विंग, ९०५</span></div>
+            <div className="map-pin">⌖<span>Neelsidhi Regalia, A-905</span></div>
           </div>
         </section>
 
@@ -257,7 +257,7 @@ export default function Page() {
         <footer>
           <img src={assets.logo} alt="श्री गणेश" />
           <p>गणपती बाप्पा मोरया</p>
-          <span>भट्ट परिवाराकडून प्रेमपूर्वक</span>
+          <span>भाट परिवाराकडून प्रेमपूर्वक</span>
         </footer>
 
       </div>
